@@ -9,7 +9,7 @@
 | Memory | Samsung 16GB DDR4x 3200 MHz  |
 | Sound | Realtek HD Audio ALC 256 (layout-id = 16) |
 | Wi-Fi / Bluetooth | Intel Wi-Fi 5 Wireless 8260 |
-| TouchPad | Dell I2C TouchPad (TDPO, IOName : AINT34C5/DELL0A21) |
+| TouchPad | Dell I2C TouchPad (TDPO, IOName : INT34C5/DELL0A21) |
 
 ## 🍃 OpenCore Versions
 - macOS Sonoma 14.5
