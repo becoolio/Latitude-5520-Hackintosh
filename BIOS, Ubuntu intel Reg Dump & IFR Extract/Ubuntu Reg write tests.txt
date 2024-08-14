@@ -1,0 +1,41 @@
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8254
+                                    (0x000c8254): 0x00017700 (freq 1, cycle 30464)
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8254
+                                    (0x000c8254): 0x00017700 (freq 1, cycle 30464)
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00027700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00047700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00017700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00027700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00017700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00017700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00027700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00037700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00017700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00027700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00012700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg write 0xc8254 0x00017700
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8255 0x00012700
+                                    (0x000c8255): 0xfd000177
+                                    (0x00012700): 0x00000000
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8253 0x00012700
+                                    (0x000c8253): 0x0000fd80
+                                    (0x00012700): 0x00000000
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8256 0x00012700
+                                    (0x000c8256): 0x00fd0001
+                                    (0x00012700): 0x00000000
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8257 0x00012700
+                                    (0x000c8257): 0x0000fd00
+                                    (0x00012700): 0x00000000
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8258 0x00012700
+                                    (0x000c8258): 0x0000b6d3
+                                    (0x00012700): 0x00000000
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8253 0x00012700
+                                    (0x000c8253): 0x0000fd80
+                                    (0x00012700): 0x00000000
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8254
+                                    (0x000c8254): 0x00017700 (freq 1, cycle 30464)
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8255
+                                    (0x000c8255): 0xfd000177
+ubuntu@ubuntu:/etc/X11/xorg.conf.d$ sudo intel_reg read 0xc8255
+                                    (0x000c8255): 0xfd000177
+
