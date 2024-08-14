@@ -24,7 +24,7 @@
     - CFG Lock `(Variable : 0x43)` : Disabled `(Value : 0x0)`
   - SaSetup `(VarStore : 0x2)`
     - DVMT Pre-Allocated Memory `(Variable : 0x84)` : 64MB `(Value : 0x2)`
-    - DVMT Total Gfx Memory `(Variable : 0x85)` : 64MB `(Value : 0x3)`
+    - DVMT Total Gfx Memory `(Variable : 0x85)` : MAX `(Value : 0x3)`
     - CD Clock Frequency `(Variable : 0x47)` : 648 MHz `(Value : 0x7)` / 652.8 MHz `(Value : 0x8)`
      
 
