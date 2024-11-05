@@ -12,7 +12,7 @@
 | TouchPad | Dell I2C TouchPad (TDPO, IOName : INT34C5/DELL0A21) |
 
 ## 🍃 OpenCore Versions
-- macOS Sonoma 14.5
+- macOS Sonoma 14.7
 - OpenCore r0.9.9
 
 ## 🍁 BIOS Settings
@@ -38,15 +38,15 @@
 - [X] Realtek ALC 256 ComboJack Headphone (sometimes a little buzzing)
 - [X] Realtek ALC 256 ComboJack Microphone
 - [X] Speed Step (XCPM, Partially working)
-- [X] Intel Wi-Fi 5 8260AC
+- [X] Intel Wi-Fi 6 AX200
 - [X] USB 3.x & USB Port Map
-- [X] Integrated Webcam (Works in Teams, zoom, etc, not photobooth)
+- [X] Dell I2C TouchPad
+- [X] Integrated Webcam (Works in Teams, zoom, etc, not photobooth) update, i broke it
 - [X] Battery Percentage Indication
 
 
 ## ❌ Not Working
 - [ ] Intel Iris Xe Graphics G7 QE/CI
-- [ ] Dell I2C TouchPad
 - [ ] Intel 8260 Bluetooth
 - [ ] Complete/Full Power Management
 - [ ] Brightness Control
