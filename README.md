@@ -8,7 +8,7 @@
 | Graphics | Intel Iris Xe Graphics G7 |
 | Memory | Samsung 16GB DDR4x 3200 MHz  |
 | Sound | Realtek HD Audio ALC 256 (layout-id = 16) |
-| Wi-Fi / Bluetooth | Intel Wi-Fi 5 Wireless 8260 |
+| Wi-Fi / Bluetooth | Intel Wi-Fi 6 Wireless AX200 |
 | TouchPad | Dell I2C TouchPad (TDPO, IOName : INT34C5/DELL0A21) |
 
 ## 🍃 OpenCore Versions
@@ -19,7 +19,7 @@
 - Boot
   - Secure Boot Control : `Off`
   - Fast BIOS Mode : `Off`
-- Using RU.efi
+- Using RU.efi (Do At Your Own Risk!!)
   - CpuSetup `(VarStore : 0x3)`
     - CFG Lock `(Variable : 0x43)` : Disabled `(Value : 0x0)`
   - SaSetup `(VarStore : 0x2)`
@@ -40,8 +40,8 @@
 - [X] Speed Step (XCPM, Partially working)
 - [X] Intel Wi-Fi 6 AX200
 - [X] USB 3.x & USB Port Map
-- [X] Dell I2C TouchPad
-- [X] Integrated Webcam (Works in Teams, zoom, etc, not photobooth) update, i broke it
+- [X] Dell I2C TouchPad (Must set touchpad from ACPI to GPIO using RU.efi)
+- [X] Integrated Webcam (Works in Teams, zoom, etc, not photobooth) (Update, I broke it, will update USBMAP soon)
 - [X] Battery Percentage Indication
 
 
