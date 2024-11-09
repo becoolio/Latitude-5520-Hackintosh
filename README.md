@@ -13,7 +13,7 @@
 
 ## 🍃 OpenCore Versions
 - macOS Sonoma 14.7
-- OpenCore r0.9.9
+- OpenCore r1.0.3
 
 ## 🍁 BIOS Settings
 - Boot
@@ -41,7 +41,7 @@
 - [X] Intel Wi-Fi 6 AX200
 - [X] USB 3.x & USB Port Map
 - [X] Dell I2C TouchPad (Must set touchpad from ACPI to GPIO using RU.efi)
-- [X] Integrated Webcam (Works in Teams, zoom, etc, not photobooth) (Update, I broke it, will update USBMAP soon)
+- [X] Integrated Webcam (Works in Teams, zoom, etc, not photobooth) (Update, I broke my USBMap.kext, will update USBMAP soon)
 - [X] Battery Percentage Indication
 
 
