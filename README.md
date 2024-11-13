@@ -41,11 +41,11 @@
 - [X] Fn Keys - Sound Volume Control (F2, F3)
 - [X] Speed Step (XCPM, Partially working)
 - [X] Intel Wi-Fi 6 AX200
+- [X] Intel Bluetooth
 - [X] USB 3.x & USB Port Map
 - [X] Dell I2C TouchPad (Must set touchpad from ACPI to GPIO using RU.efi)
 - [X] Integrated Webcam
 - [X] Battery Percentage Indication
-- [X] Intel Bluetooth
 
 
 ## ❌ Not Working
