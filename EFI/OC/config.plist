@@ -96,6 +96,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XSPI.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>HPET _CRS (Needs _CRS to XCRS Rename)</string>
 				<key>Enabled</key>
 				<true/>
@@ -104,11 +112,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>SSDT to disable USB RHUB/HUBN/URTH and rename devices</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-XSPI.aml</string>
+				<string>SSDT-USB-Reset.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -136,66 +144,6 @@
 				<data>AAAAAA==</data>
 				<key>Replace</key>
 				<data>WFMw</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string>54504430</string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>Replace XCRS</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>X0NSUw==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data>AAAAAA==</data>
-				<key>Replace</key>
-				<data>WENSUw==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string>47504930</string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>Replace XSTA</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>X1NUQQ==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data>AAAAAA==</data>
-				<key>Replace</key>
-				<data>WFNUQQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -436,6 +384,36 @@
 				<data>AAAAAAAAAAA=</data>
 				<key>Replace</key>
 				<data>IgAAeQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>PXSX _STA to XSTA Rename</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>MDVQWFNYFEcFR01JTwpbgFBYQ1MAUEMyTWgKIFuBE1BYQ1MAAEAMUEJVUwhTQlVTCHBHUENCYHJgentpDAAAHwAAAQBgcmB5e2kKBwAKDABgcmB5U0JVUwoUAGCkYFuAUlBYWABHTUlPXl9BRFJfQURSCjBbgRNSUFhYAFZESUQgAEAUU1ZJRBBbgEZMRFIAckdNSU9eX0FEUl9BRFIKRAAKBluBEEZMRFIBRENBUCBEQ1RSEBRPGVdJU1QICF9UXzAAoE0YWxJWRElEAKJDGAFwmVZESUQAX1RfMKANk19UXzAMhoBaCaQBoUUWoA2TX1RfMAyGgFsJpAGhRBWgDZNfVF8wDIaAZTGkAaFDFKANk19UXzAMhoBmMaQBoUIToA2TX1RfMAyGgLEIpAGhQRKgDZNfVF8wDIaAsgikAaFAEaANk19UXzAMhoCzCKQBoU8PoA2TX1RfMAyGgLQIpAGhTg6gDZNfVF8wDIaA8ySkAaFNDaANk19UXzAMhoD0JKQBoUwMoA2TX1RfMAyGgPUkpAGhSwugDZNfVF8wDIaA9iSkAaFKCqANk19UXzAMhoD9JKQBoUkJoA2TX1RfMAyGgPskpAGhSAigDZNfVF8wDIaAJiWkAaFHB6ANk19UXzAMhoAbJ6QBoUYGoA2TX1RfMAyGgCMnpAGhRQWgDZNfVF8wDIaAJSekAaFEBKANk19UXzAMyxcBEaQBoTOgDZNfVF8wDIwWPgCkAaEjoA2TX1RfMAzsECLIpAGhE6ANk19UXzAM7BAhyKQBoQOkAKWhA6QAFE0FV1dTVAgIX1RfMACgSwRbElZESUQAokEEAXCZVkRJRABfVF8woA2TX1RfMAyGgGBzpAGhI6ANk19UXzAMhoBgdaQBoROgDZNfVF8wDMMUdU2kAaEDpACloQOkAKBA0FdJU1RbhEYEV1JTVAUAABQIX1NUQQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>MDVQWFNYFEcFR01JTwpbgFBYQ1MAUEMyTWgKIFuBE1BYQ1MAAEAMUEJVUwhTQlVTCHBHUENCYHJgentpDAAAHwAAAQBgcmB5e2kKBwAKDABgcmB5U0JVUwoUAGCkYFuAUlBYWABHTUlPXl9BRFJfQURSCjBbgRNSUFhYAFZESUQgAEAUU1ZJRBBbgEZMRFIAckdNSU9eX0FEUl9BRFIKRAAKBluBEEZMRFIBRENBUCBEQ1RSEBRPGVdJU1QICF9UXzAAoE0YWxJWRElEAKJDGAFwmVZESUQAX1RfMKANk19UXzAMhoBaCaQBoUUWoA2TX1RfMAyGgFsJpAGhRBWgDZNfVF8wDIaAZTGkAaFDFKANk19UXzAMhoBmMaQBoUIToA2TX1RfMAyGgLEIpAGhQRKgDZNfVF8wDIaAsgikAaFAEaANk19UXzAMhoCzCKQBoU8PoA2TX1RfMAyGgLQIpAGhTg6gDZNfVF8wDIaA8ySkAaFNDaANk19UXzAMhoD0JKQBoUwMoA2TX1RfMAyGgPUkpAGhSwugDZNfVF8wDIaA9iSkAaFKCqANk19UXzAMhoD9JKQBoUkJoA2TX1RfMAyGgPskpAGhSAigDZNfVF8wDIaAJiWkAaFHB6ANk19UXzAMhoAbJ6QBoUYGoA2TX1RfMAyGgCMnpAGhRQWgDZNfVF8wDIaAJSekAaFEBKANk19UXzAMyxcBEaQBoTOgDZNfVF8wDIwWPgCkAaEjoA2TX1RfMAzsECLIpAGhE6ANk19UXzAM7BAhyKQBoQOkAKWhA6QAFE0FV1dTVAgIX1RfMACgSwRbElZESUQAokEEAXCZVkRJRABfVF8woA2TX1RfMAyGgGBzpAGhI6ANk19UXzAMhoBgdaQBoROgDZNfVF8wDMMUdU2kAaEDpACloQOkAKBA0FdJU1RbhEYEV1JTVAUAABQIWFNUQQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -786,6 +764,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/DebugEnhancer</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RealtekCardReader.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekCardReader</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RealtekCardReaderFriend.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekCardReaderFriend</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1482,7 +1496,7 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 IGLogLevel=8 -liludbg itlwm_cc=US -allow3d</string>
+				<string>-v keepsyms=1 debug=0x100 IGLogLevel=8 -liludbg itlwm_cc=US -allow3d -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>

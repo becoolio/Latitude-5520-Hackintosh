@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22H123</string>
+	<string>23G93</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -29,19 +29,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string></string>
+	<string>24B75</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>14.0</string>
+	<string>15.1</string>
 	<key>DTSDKBuild</key>
-	<string>23A334</string>
+	<string>24B75</string>
 	<key>DTSDKName</key>
-	<string>macosx14.0</string>
+	<string>macosx15.1</string>
 	<key>DTXcode</key>
-	<string>1500</string>
+	<string>1610</string>
 	<key>DTXcodeBuild</key>
-	<string>15A240d</string>
+	<string>16B40</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>AppleIntelFramebufferControllerICL</key>
@@ -701,17 +701,37 @@
 		<key>DisplayAppleIDInjection</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.ChefKissInc.NootedBlue</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>DisplayProductID</key>
-			<integer>18841</integer>
+			<integer>1822</integer>
 			<key>DisplayVendorID</key>
-			<integer>17119999</integer>
+			<integer>12516</integer>
 			<key>IOClass</key>
-			<string>DisplayMergeNub</string>
-			<key>IODisplayPrefsKey</key>
-			<string>IOService:/AppleACPIPlatformExpert/PC00@0/AppleACPIPCI/IGPU@2/AppleIntelFramebuffer@0/display0/AppleDisplay-30e4-71e</string>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
 			<key>IOProviderClass</key>
 			<string>AppleDisplay</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>AppleBacklightDisplay</string>
+			</dict>
+		</dict>
+		<key>Monitor Apple ID Injection</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>DisplayProductID</key>
+			<integer>1822</integer>
+			<key>DisplayVendorID</key>
+			<integer>12516</integer>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleBacklightDisplay</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>AppleDisplayType</key>
@@ -722,10 +742,10 @@
 				<true/>
 				<key>DisplayProductID</key>
 				<integer>45061</integer>
+				<key>DisplayProductName</key>
+				<string>Unknown Display</string>
 				<key>DisplayVendorID</key>
 				<integer>1552</integer>
-				<key>IOClass</key>
-				<string>AppleBacklightDisplay</string>
 				<key>IODisplayCapabilityString</key>
 				<data>KHByb3QoYmFja2xpZ2h0KSB0eXBlKGxlZCkgbW9kZWwoaU1hYykgdmNwKDAyIDEwIDUyIDhEIEM4IEM5IERFIERGIEZDIEZEIEZFKSBtY2NzX3ZlcigyLjIpKQ==</data>
 				<key>IODisplayConnectFlags</key>
@@ -733,7 +753,7 @@
 				<key>IODisplayControllerID</key>
 				<data>AgQR/w==</data>
 				<key>IODisplayEDID</key>
-				<data>AP///////wAGEBKgAAAAABwWAQS1MBt4Im+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUAWMIQAAAaHySAoHA4H0AwIDUAWMIQAAAaAAAA/ABpTWFjCiAgICAgICAgAAAAAgAMOv8KPH0SFCR9AAAAAKo=</data>
+				<data>AP///////wAGEAWwAAAAABwWAQS1MBt4Im+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUAWMIQAAAaHySAoHA4H0AwIDUAWMIQAAAaAAAA/ABpTWFjCiAgICAgICAgAAAAAgAMOv8KPH0SFCR9AAAAAKc=</data>
 				<key>IODisplayFirmwareLevel</key>
 				<data>AAACBA==</data>
 				<key>IODisplayMCCSVersion</key>
@@ -1234,9 +1254,9 @@
 				<key>NewUtilizationAlgorithmEnable</key>
 				<integer>1</integer>
 				<key>PPGTT</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>PageTableMode</key>
-				<integer>64</integer>
+				<integer>48</integer>
 				<key>PanicOnGPUHang</key>
 				<integer>0</integer>
 				<key>PixelBackendThrottle</key>
