@@ -4,12 +4,13 @@
 | Name | Description |
 | - | - |
 | CPU | Intel 11th Gen Tiger Lake Core i5-1135G7 4.20 GHz |
-| Chipsets | Intel Tiger Lake-LP |
+| Chipsets | Intel Tiger Lake-LP GT2 |
 | Graphics | Intel Iris Xe Graphics G7 |
 | Memory | Samsung 16GB DDR4x 3200 MHz  |
 | Sound | Realtek HD Audio ALC 256 (layout-id = 16) |
 | Wi-Fi / Bluetooth | Intel Wi-Fi 6 Wireless AX200 |
 | TouchPad | Dell I2C TouchPad (TDPO, IOName : INT34C5/DELL0A21) |
+| Card Reader | RTS525A PCI Express Card Reader (IOName : 10EC:525A) |
 
 ## 🍃 OpenCore Versions
 - macOS Sonoma 14.7
@@ -37,18 +38,19 @@
 - [X] Realtek ALC 256 Internal Microphone
 - [X] Realtek ALC 256 ComboJack Headphone (sometimes a little buzzing)
 - [X] Realtek ALC 256 ComboJack Microphone
+- [X] Fn Keys - Sound Volume Control (F2, F3)
 - [X] Speed Step (XCPM, Partially working)
 - [X] Intel Wi-Fi 6 AX200
+- [X] Intel Bluetooth
 - [X] USB 3.x & USB Port Map
 - [X] Dell I2C TouchPad (Must set touchpad from ACPI to GPIO using RU.efi)
-- [X] Integrated Webcam (Works in Teams, zoom, etc, not photobooth) (Update, I broke my USBMap.kext, will update USBMAP soon)
+- [X] Integrated Webcam
 - [X] Battery Percentage Indication
 
 
 ## ❌ Not Working
 - [ ] Intel Iris Xe Graphics G7 QE/CI
-- [ ] Intel 8260 Bluetooth
 - [ ] Complete/Full Power Management
 - [ ] Brightness Control
-- [ ] Fn Keys (Brightness & Sound Volume Control)
+- [ ] Fn Keys - Brightness
 - [ ] Sleep & Wake
