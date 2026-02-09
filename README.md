@@ -6,14 +6,14 @@
 | CPU | Intel 11th Gen Tiger Lake Core i5-1135G7 4.20 GHz |
 | Chipsets | Intel Tiger Lake-LP GT2 |
 | Graphics | Intel Iris Xe Graphics G7 |
-| Memory | Samsung 16GB DDR4x 3200 MHz  |
+| Memory | 32GB | 2 x Samsung 16GB DDR4x 3200 MHz  |
 | Sound | Realtek HD Audio ALC 256 (layout-id = 16) |
 | Wi-Fi / Bluetooth | Intel Wi-Fi 6 Wireless AX200 |
 | TouchPad | Dell I2C TouchPad (TDPO, IOName : INT34C5/DELL0A21) |
 | Card Reader | RTS525A PCI Express Card Reader (IOName : 10EC:525A) |
 
 ## 🍃 OpenCore Versions
-- macOS Sonoma 14.7
+- macOS Sonoma 14.8.3
 - OpenCore r1.0.3
 
 ## 🍁 BIOS Settings
@@ -41,10 +41,11 @@
 - [X] Fn Keys - Sound Volume Control (F2, F3)
 - [X] Speed Step (XCPM, Partially working)
 - [X] Intel Wi-Fi 6 AX200
+- [X] SD Card Reader
 - [X] Intel Bluetooth
 - [X] USB 3.x & USB Port Map
 - [X] Dell I2C TouchPad (Must set touchpad from ACPI to GPIO using RU.efi)
-- [X] Integrated Webcam
+- [X] Integrated Webcam (Works with Teams, Google Meet etcetera) not with PhotoBooth though
 - [X] Battery Percentage Indication
 
 
