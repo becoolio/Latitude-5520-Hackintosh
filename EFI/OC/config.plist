@@ -74,7 +74,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
@@ -449,21 +449,23 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
-			<false/>
+			<true/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<true/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
-			<false/>
+			<true/>
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
-			<false/>
+			<true/>
 			<key>FixupAppleEfiImages</key>
 			<false/>
 			<key>ForceBooterSignature</key>
@@ -475,7 +477,7 @@
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
-			<false/>
+			<true/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>ProvideMaxSlide</key>
@@ -485,7 +487,7 @@
 			<key>ResizeAppleGpuBars</key>
 			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
-			<false/>
+			<true/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
@@ -721,13 +723,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>NootedBlue.kext</string>
+				<string>IntelI915Controller.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NootedBlue</string>
+				<string>Contents/MacOS/IntelI915Controller</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1282,7 +1284,7 @@
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
-			<string>x86_64</string>
+			<string>Auto</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
@@ -1496,7 +1498,7 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 IGLogLevel=8 -liludbg itlwm_cc=US -allow3d -lilubetaall</string>
+				<string>-v keepsyms=1 debug=0x100 amfi_get_out_of_my_way=1 IGLogLevel=8 -liludbg itlwm_cc=US -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1542,21 +1544,21 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C02026207CDP8PG1F</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>vU1lpUrL</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
-			<string>Upgradable</string>
+			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookAir9,1</string>
+			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02CX5Y8ML7H</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>49D052AE-1629-4C50-8FC0-0439F0A54ACB</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

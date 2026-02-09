@@ -1,0 +1,5 @@
+Runtime power status: enabled
+GPU idle: no
+IRQs disabled: no
+Usage count: 10
+PCI device power state: D0 [0]

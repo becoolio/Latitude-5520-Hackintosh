@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceProperties</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>11th Gen Core Processor Host Bridge/DRAM Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x12,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,18,0</string>
+				<key>device_type</key>
+				<string>Serial controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Integrated Sensor Hub</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>RAM memory</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Shared SRAM</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,0</string>
+				<key>device_type</key>
+				<string>Serial bus controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Serial IO I2C Controller #0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,1</string>
+				<key>device_type</key>
+				<string>Serial bus controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Serial IO I2C Controller #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,22,0</string>
+				<key>device_type</key>
+				<string>Communication controller</string>
+				<key>model</key>
+				<string>Ice Lake-LP Management Engine</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tigerlake PCH-LP PCI Express Root Port #6</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0/0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>Wi-Fi 6 AX200</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,6</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP PCI Express Root Port #7</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x6)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,6/0,0</string>
+				<key>device_type</key>
+				<string>Unassigned class</string>
+				<key>model</key>
+				<string>RTS525A PCI Express Card Reader</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP PCI Express Root Port #9</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>NVMe SSD Controller 980</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,0</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP LPC Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>layout-id</key>
+				<data>
+				EAAAAA==
+				</data>
+				<key>model</key>
+				<string>Ice Lake-LP Smart Sound Technology Audio Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,4</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>Tiger Lake-LP SMBus Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,5</string>
+				<key>device_type</key>
+				<string>Serial bus controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP SPI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,6</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>Ethernet Connection (13) I219-V</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>model</key>
+				<string>Intel TigerLake-LP GT2 [Iris Xe Graphics]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,0</string>
+				<key>device_type</key>
+				<string>Signal processing controller</string>
+				<key>model</key>
+				<string>TigerLake-LP Dynamic Tuning Processor Participant</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x6,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,6,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>11th Gen Core Processor PCIe Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,6,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>NVMe SSD Controller 980</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x7,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,7,1</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>GNA Scoring Accelerator module</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0xD,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,13,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt 4 USB Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0xD,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,13,2</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Tiger Lake-LP Thunderbolt 4 NHI #0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

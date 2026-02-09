@@ -1,0 +1,1 @@
+OpenGL renderer string: Mesa Intel(R) Xe Graphics (TGL GT2)

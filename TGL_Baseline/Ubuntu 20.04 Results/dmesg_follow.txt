@@ -1,0 +1,245 @@
+[Sat Feb  7 23:58:30 2026] Command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-94-generic root=UUID=bae84461-85e5-4f79-a4dd-5f1be50c0b31 ro quiet splash i915.enable_guc=3 vt.handoff=7
+[Sat Feb  7 23:58:30 2026]   zhaoxin   Shanghai  
+[Sat Feb  7 23:58:30 2026] x86/split lock detection: #AC: crashing the kernel on kernel split_locks and warning on user-space split_locks
+[Sat Feb  7 23:58:30 2026] NX (Execute Disable) protection: active
+[Sat Feb  7 23:58:30 2026] tsc: Detected 1400.000 MHz processor
+[Sat Feb  7 23:58:30 2026] tsc: Detected 1382.400 MHz TSC
+[Sat Feb  7 23:58:30 2026] Using GB pages for direct mapping
+[Sat Feb  7 23:58:30 2026] ACPI: SSDT 0x000000005CF7F000 000CD2 (v02 DELL   UsbCTabl 00001000 INTL 20191018)
+[Sat Feb  7 23:58:30 2026] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-94-generic root=UUID=bae84461-85e5-4f79-a4dd-5f1be50c0b31 ro quiet splash i915.enable_guc=3 vt.handoff=7
+[Sat Feb  7 23:58:30 2026] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[Sat Feb  7 23:58:30 2026] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+[Sat Feb  7 23:58:30 2026] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[Sat Feb  7 23:58:30 2026] hpet: HPET dysfunctional in PC10. Force disabled.
+[Sat Feb  7 23:58:30 2026] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[Sat Feb  7 23:58:30 2026] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[Sat Feb  7 23:58:30 2026] Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+[Sat Feb  7 23:58:30 2026] Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+[Sat Feb  7 23:58:30 2026] Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+[Sat Feb  7 23:58:30 2026] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[Sat Feb  7 23:58:30 2026] Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+[Sat Feb  7 23:58:30 2026] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[Sat Feb  7 23:58:30 2026] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[Sat Feb  7 23:58:30 2026] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+[Sat Feb  7 23:58:30 2026] x86/fpu: Enabled xstate features 0xae7, context size is 2456 bytes, using 'compacted' format.
+[Sat Feb  7 23:58:30 2026] pid_max: default: 32768 minimum: 301
+[Sat Feb  7 23:58:30 2026] smpboot: Total of 8 processors activated (22118.40 BogoMIPS)
+[Sat Feb  7 23:58:30 2026] pinctrl core: initialized pinctrl subsystem
+[Sat Feb  7 23:58:30 2026] ACPI: \_SB_.PC00.LPCB.ECDV: Boot DSDT EC used to handle transactions
+[Sat Feb  7 23:58:30 2026] Low-power S0 idle used by default for system suspend
+[Sat Feb  7 23:58:30 2026] ACPI: \_SB_.PC00.LPCB.ECDV: EC: Used to handle transactions and events
+[Sat Feb  7 23:58:30 2026] iommu: Default domain type: Translated
+[Sat Feb  7 23:58:30 2026] NetLabel:  unlabeled traffic allowed by default
+[Sat Feb  7 23:58:30 2026] mctp: management component transport protocol core
+[Sat Feb  7 23:58:30 2026] NET: Registered PF_MCTP protocol family
+[Sat Feb  7 23:58:30 2026] PCI: CLS 0 bytes, default 64
+[Sat Feb  7 23:58:30 2026] DMAR: Intel(R) Virtualization Technology for Directed I/O
+[Sat Feb  7 23:58:30 2026] pcieport 0000:00:07.0: pciehp: Slot #0 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sat Feb  7 23:58:30 2026] pcieport 0000:00:07.1: pciehp: Slot #0 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[Sat Feb  7 23:58:30 2026] ACPI: bus type drm_connector registered
+[Sat Feb  7 23:58:30 2026] i8042: Warning: Keylock active
+[Sat Feb  7 23:58:30 2026] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+[Sat Feb  7 23:58:30 2026] ledtrig-cpu: registered to indicate activity on CPUs
+[Sat Feb  7 23:58:30 2026] [drm] Initialized simpledrm 1.0.0 20200625 for simple-framebuffer.0 on minor 0
+[Sat Feb  7 23:58:30 2026] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[Sat Feb  7 23:58:30 2026] resctrl: L2 allocation detected
+[Sat Feb  7 23:58:30 2026] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[Sat Feb  7 23:58:30 2026] ima: No architecture policies found
+[Sat Feb  7 23:58:30 2026] RAS: Correctable Errors collector initialized.
+[Sat Feb  7 23:58:30 2026] Write protecting the kernel read-only data: 36864k
+[Sat Feb  7 23:58:30 2026] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.08
+[Sat Feb  7 23:58:30 2026] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sat Feb  7 23:58:30 2026] usb usb1: Product: xHCI Host Controller
+[Sat Feb  7 23:58:30 2026] usb usb1: Manufacturer: Linux 6.8.0-94-generic xhci-hcd
+[Sat Feb  7 23:58:30 2026] hub 1-0:1.0: 1 port detected
+[Sat Feb  7 23:58:30 2026] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.08
+[Sat Feb  7 23:58:30 2026] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sat Feb  7 23:58:30 2026] usb usb2: Product: xHCI Host Controller
+[Sat Feb  7 23:58:30 2026] usb usb2: Manufacturer: Linux 6.8.0-94-generic xhci-hcd
+[Sat Feb  7 23:58:30 2026] hub 2-0:1.0: 4 ports detected
+[Sat Feb  7 23:58:30 2026] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.08
+[Sat Feb  7 23:58:30 2026] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sat Feb  7 23:58:30 2026] usb usb3: Product: xHCI Host Controller
+[Sat Feb  7 23:58:30 2026] usb usb3: Manufacturer: Linux 6.8.0-94-generic xhci-hcd
+[Sat Feb  7 23:58:30 2026] hub 3-0:1.0: 12 ports detected
+[Sat Feb  7 23:58:30 2026] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.08
+[Sat Feb  7 23:58:30 2026] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sat Feb  7 23:58:30 2026] usb usb4: Product: xHCI Host Controller
+[Sat Feb  7 23:58:30 2026] usb usb4: Manufacturer: Linux 6.8.0-94-generic xhci-hcd
+[Sat Feb  7 23:58:30 2026] hub 4-0:1.0: 4 ports detected
+[Sat Feb  7 23:58:31 2026] nvme nvme0: pci function 0000:73:00.0
+[Sat Feb  7 23:58:31 2026] nvme nvme0: 8/0/0 default/read/poll queues
+[Sat Feb  7 23:58:31 2026] usb 3-2: New USB device found, idVendor=0bda, idProduct=5487, bcdDevice= 1.62
+[Sat Feb  7 23:58:31 2026] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sat Feb  7 23:58:31 2026] usb 3-2: Product: Dell dock
+[Sat Feb  7 23:58:31 2026] usb 3-2: Manufacturer: Dell Inc.
+[Sat Feb  7 23:58:31 2026] hub 3-2:1.0: 5 ports detected
+[Sat Feb  7 23:58:31 2026] usb 2-2: New USB device found, idVendor=0bda, idProduct=0487, bcdDevice= 1.62
+[Sat Feb  7 23:58:31 2026] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sat Feb  7 23:58:31 2026] usb 2-2: Product: Dell dock
+[Sat Feb  7 23:58:31 2026] usb 2-2: Manufacturer: Dell Inc.
+[Sat Feb  7 23:58:31 2026] e1000e 0000:00:1f.6 eth0: Intel(R) PRO/1000 Network Connection
+[Sat Feb  7 23:58:31 2026] hub 2-2:1.0: 4 ports detected
+[Sat Feb  7 23:58:31 2026] usb 3-3: New USB device found, idVendor=1ea7, idProduct=0064, bcdDevice= 2.00
+[Sat Feb  7 23:58:31 2026] usb 3-3: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[Sat Feb  7 23:58:31 2026] usb 3-3: Product: 2.4G Mouse
+[Sat Feb  7 23:58:31 2026] usb 2-2.3: New USB device found, idVendor=0bda, idProduct=0413, bcdDevice= 1.23
+[Sat Feb  7 23:58:31 2026] usb 2-2.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sat Feb  7 23:58:31 2026] usb 2-2.3: Product: Dell dock
+[Sat Feb  7 23:58:31 2026] usb 2-2.3: Manufacturer: Dell Inc.
+[Sat Feb  7 23:58:31 2026] hub 2-2.3:1.0: 4 ports detected
+[Sat Feb  7 23:58:31 2026] usb 3-2.3: New USB device found, idVendor=0bda, idProduct=5413, bcdDevice= 1.23
+[Sat Feb  7 23:58:31 2026] usb 3-2.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sat Feb  7 23:58:31 2026] usb 3-2.3: Product: Dell dock
+[Sat Feb  7 23:58:31 2026] usb 3-2.3: Manufacturer: Dell Inc.
+[Sat Feb  7 23:58:31 2026] hub 3-2.3:1.0: 6 ports detected
+[Sat Feb  7 23:58:31 2026] usb 2-2.4: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=31.11
+[Sat Feb  7 23:58:31 2026] usb 2-2.4: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+[Sat Feb  7 23:58:31 2026] usb 2-2.4: Product: USB 10/100/1000 LAN
+[Sat Feb  7 23:58:31 2026] usb 2-2.4: Manufacturer: Realtek
+[Sat Feb  7 23:58:31 2026] usbcore: registered new device driver r8152-cfgselector
+[Sat Feb  7 23:58:31 2026] r8152-cfgselector 2-2.4: reset SuperSpeed USB device number 4 using xhci_hcd
+[Sat Feb  7 23:58:32 2026] usb 3-6: New USB device found, idVendor=1bcf, idProduct=28cc, bcdDevice=11.21
+[Sat Feb  7 23:58:32 2026] usb 3-6: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[Sat Feb  7 23:58:32 2026] usb 3-6: Product: Integrated_Webcam_HD
+[Sat Feb  7 23:58:32 2026] usb 3-6: Manufacturer: CN07JXD18LG00193BN5HA01
+[Sat Feb  7 23:58:32 2026] usb 3-2.5: New USB device found, idVendor=413c, idProduct=b06e, bcdDevice= 2.03
+[Sat Feb  7 23:58:32 2026] usb 3-2.5: New USB device strings: Mfr=0, Product=1, SerialNumber=2
+[Sat Feb  7 23:58:32 2026] usb 3-2.5: Product: Dell Dock WD19S
+[Sat Feb  7 23:58:32 2026] usb 3-2.3.5: New USB device found, idVendor=413c, idProduct=b06f, bcdDevice= 1.01
+[Sat Feb  7 23:58:32 2026] usb 3-2.3.5: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[Sat Feb  7 23:58:32 2026] usb 3-2.3.5: Product: Dell dock
+[Sat Feb  7 23:58:32 2026] usb 3-10: New USB device found, idVendor=8087, idProduct=0029, bcdDevice= 0.01
+[Sat Feb  7 23:58:32 2026] usb 3-10: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[Sat Feb  7 23:58:32 2026] systemd[1]: systemd 249.11-0ubuntu3.17 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[Sat Feb  7 23:58:32 2026] systemd[1]: Detected architecture x86-64.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Sat Feb  7 23:58:32 2026] systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Queued start job for default target Graphical Interface.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Reached target Local Verity Protected Volumes.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Starting Load Kernel Module drm...
+[Sat Feb  7 23:58:32 2026] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[Sat Feb  7 23:58:32 2026] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Finished Load Kernel Module drm.
+[Sat Feb  7 23:58:32 2026] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[Sat Feb  7 23:58:32 2026] systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+[Sat Feb  7 23:58:32 2026] systemd[1]: Activating swap /swapfile...
+[Sat Feb  7 23:58:32 2026] systemd[1]: Activated swap /swapfile.
+[Sat Feb  7 23:58:32 2026] loop0: detected capacity change from 0 to 152112
+[Sat Feb  7 23:58:32 2026] loop1: detected capacity change from 0 to 8
+[Sat Feb  7 23:58:32 2026] loop2: detected capacity change from 0 to 555496
+[Sat Feb  7 23:58:32 2026] loop3: detected capacity change from 0 to 1034424
+[Sat Feb  7 23:58:32 2026] loop4: detected capacity change from 0 to 187776
+[Sat Feb  7 23:58:32 2026] loop5: detected capacity change from 0 to 26472
+[Sat Feb  7 23:58:32 2026] loop6: detected capacity change from 0 to 79520
+[Sat Feb  7 23:58:32 2026] loop7: detected capacity change from 0 to 1000
+[Sat Feb  7 23:58:33 2026] Bluetooth: HCI device and connection manager initialized
+[Sat Feb  7 23:58:33 2026] iwlwifi 0000:71:00.0: Detected crf-id 0x3617, cnv-id 0x100530 wfpm id 0x80000000
+[Sat Feb  7 23:58:33 2026] intel_rapl_msr: PL4 support detected.
+[Sat Feb  7 23:58:33 2026] Setting dangerous option enable_guc - tainting kernel
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: vgaarb: deactivate vga console
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/tgl_dmc_ver2_12.bin (v2.12)
+[Sat Feb  7 23:58:33 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] GT0: GuC firmware i915/tgl_guc_70.1.1.bin version 70.1.1
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] GT0: HuC firmware i915/tgl_huc_7.9.3.bin version 7.9.3
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] GT0: HuC: authenticated for all workloads
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+[Sat Feb  7 23:58:33 2026] mei_pxp 0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1: bound 0000:00:02.0 (ops i915_pxp_tee_component_ops [i915])
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] Protected Xe Path (PXP) protected content support initialized
+[Sat Feb  7 23:58:33 2026] [drm] Initialized i915 1.6.0 20230929 for 0000:00:02.0 on minor 1
+[Sat Feb  7 23:58:33 2026] i915 display info: display version: 12
+[Sat Feb  7 23:58:33 2026] i915 display info: cursor_needs_physical: no
+[Sat Feb  7 23:58:33 2026] i915 display info: has_cdclk_crawl: no
+[Sat Feb  7 23:58:33 2026] i915 display info: has_cdclk_squash: no
+[Sat Feb  7 23:58:33 2026] i915 display info: has_ddi: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_dp_mst: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_dsb: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_fpga_dbg: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_gmch: no
+[Sat Feb  7 23:58:33 2026] i915 display info: has_hotplug: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_hti: no
+[Sat Feb  7 23:58:33 2026] i915 display info: has_ipc: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_overlay: no
+[Sat Feb  7 23:58:33 2026] i915 display info: has_psr: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_psr_hw_tracking: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: overlay_needs_physical: no
+[Sat Feb  7 23:58:33 2026] i915 display info: supports_tv: no
+[Sat Feb  7 23:58:33 2026] i915 display info: has_hdcp: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_dmc: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: has_dsc: yes
+[Sat Feb  7 23:58:33 2026] i915 display info: rawclk rate: 19200 kHz
+[Sat Feb  7 23:58:33 2026] fbcon: i915drmfb (fb0) is primary device
+[Sat Feb  7 23:58:33 2026] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[Sat Feb  7 23:58:34 2026] AES CTR mode by8 optimization enabled
+[Sat Feb  7 23:58:34 2026] dell_laptop: Using i8042 filter function for receiving events
+[Sat Feb  7 23:58:34 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[Sat Feb  7 23:58:34 2026] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[Sat Feb  7 23:58:34 2026] iwlwifi 0000:71:00.0: Detected Intel(R) Wi-Fi 6 AX200 160MHz, REV=0x340
+[Sat Feb  7 23:58:34 2026] iwlwifi 0000:71:00.0: Detected RF HR B3, rfid=0x10a100
+[Sat Feb  7 23:58:35 2026] loop8: detected capacity change from 0 to 8
+[Sun Feb  8 01:00:55 2026] i915 0000:00:02.0: Using 39-bit DMA addresses
+[Sun Feb  8 02:16:45 2026] UBSAN: array-index-out-of-bounds in /build/linux-hwe-6.8-3OUdEL/linux-hwe-6.8-6.8.0/include/trace/../../drivers/gpu/drm/i915/display/intel_display_trace.h:52:1
+[Sun Feb  8 02:16:45 2026]  __ubsan_handle_out_of_bounds+0xc6/0x110
+[Sun Feb  8 02:16:45 2026]  do_trace_event_raw_event_intel_pipe_disable+0x1a1/0x1d0 [i915]
+[Sun Feb  8 02:16:45 2026]  ? __pfx_cnp_disable_backlight+0x10/0x10 [i915]
+[Sun Feb  8 02:16:45 2026]  trace_event_raw_event_intel_pipe_disable+0x9/0x20 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_crtc_vblank_off+0x61/0x80 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_ddi_post_disable+0x1e9/0x2c0 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_encoders_post_disable+0x83/0xb0 [i915]
+[Sun Feb  8 02:16:45 2026]  hsw_crtc_disable+0x172/0x180 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_old_crtc_state_disables.constprop.0+0x38/0xa0 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_commit_modeset_disables+0x2a9/0x350 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_atomic_commit_tail+0x215/0xa00 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_atomic_commit+0x352/0x3a0 [i915]
+[Sun Feb  8 02:16:45 2026]  drm_atomic_commit+0x96/0xd0
+[Sun Feb  8 02:16:45 2026]  ? __pfx___drm_printfn_info+0x10/0x10
+[Sun Feb  8 02:16:45 2026]  drm_mode_atomic_ioctl+0x563/0x850
+[Sun Feb  8 02:16:45 2026]  ? __pfx_drm_mode_atomic_ioctl+0x10/0x10
+[Sun Feb  8 02:16:45 2026]  drm_ioctl_kernel+0xb9/0x120
+[Sun Feb  8 02:16:45 2026]  drm_ioctl+0x2d0/0x550
+[Sun Feb  8 02:16:45 2026]  ? __pfx_drm_mode_atomic_ioctl+0x10/0x10
+[Sun Feb  8 02:16:45 2026]  __x64_sys_ioctl+0xa0/0xf0
+[Sun Feb  8 02:16:45 2026]  ? handle_pte_fault+0x1be/0x1d0
+[Sun Feb  8 02:16:45 2026]  ? __handle_mm_fault+0x64f/0x800
+[Sun Feb  8 02:16:45 2026]  ? handle_mm_fault+0xad/0x380
+[Sun Feb  8 02:16:45 2026] UBSAN: array-index-out-of-bounds in /build/linux-hwe-6.8-3OUdEL/linux-hwe-6.8-6.8.0/include/trace/../../drivers/gpu/drm/i915/display/intel_display_trace.h:52:1
+[Sun Feb  8 02:16:45 2026]  __ubsan_handle_out_of_bounds+0xc6/0x110
+[Sun Feb  8 02:16:45 2026]  do_trace_event_raw_event_intel_pipe_disable+0x1bc/0x1d0 [i915]
+[Sun Feb  8 02:16:45 2026]  trace_event_raw_event_intel_pipe_disable+0x9/0x20 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_crtc_vblank_off+0x61/0x80 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_ddi_post_disable+0x1e9/0x2c0 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_encoders_post_disable+0x83/0xb0 [i915]
+[Sun Feb  8 02:16:45 2026]  hsw_crtc_disable+0x172/0x180 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_old_crtc_state_disables.constprop.0+0x38/0xa0 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_commit_modeset_disables+0x2a9/0x350 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_atomic_commit_tail+0x215/0xa00 [i915]
+[Sun Feb  8 02:16:45 2026]  intel_atomic_commit+0x352/0x3a0 [i915]
+[Sun Feb  8 02:16:45 2026]  drm_atomic_commit+0x96/0xd0
+[Sun Feb  8 02:16:45 2026]  ? __pfx___drm_printfn_info+0x10/0x10
+[Sun Feb  8 02:16:45 2026]  drm_mode_atomic_ioctl+0x563/0x850
+[Sun Feb  8 02:16:45 2026]  ? __pfx_drm_mode_atomic_ioctl+0x10/0x10
+[Sun Feb  8 02:16:45 2026]  drm_ioctl_kernel+0xb9/0x120
+[Sun Feb  8 02:16:45 2026]  drm_ioctl+0x2d0/0x550
+[Sun Feb  8 02:16:45 2026]  ? __pfx_drm_mode_atomic_ioctl+0x10/0x10
+[Sun Feb  8 02:16:45 2026]  __x64_sys_ioctl+0xa0/0xf0
+[Sun Feb  8 02:16:45 2026]  ? handle_pte_fault+0x1be/0x1d0
+[Sun Feb  8 02:16:45 2026]  ? __handle_mm_fault+0x64f/0x800
+[Sun Feb  8 02:16:45 2026]  ? handle_mm_fault+0xad/0x380
+[Sun Feb  8 02:23:12 2026] UBSAN: array-index-out-of-bounds in /build/linux-hwe-6.8-3OUdEL/linux-hwe-6.8-6.8.0/include/trace/../../drivers/gpu/drm/i915/display/intel_display_trace.h:24:1
+[Sun Feb  8 02:23:12 2026]  __ubsan_handle_out_of_bounds+0xc6/0x110
+[Sun Feb  8 02:23:12 2026]  do_trace_event_raw_event_intel_pipe_enable+0x1a1/0x1d0 [i915]
+[Sun Feb  8 02:23:12 2026]  trace_event_raw_event_intel_pipe_enable+0x9/0x20 [i915]
+[Sun Feb  8 02:23:12 2026]  intel_crtc_vblank_on+0x77/0x90 [i915]
+[Sun Feb  8 02:23:12 2026]  intel_enable_ddi+0x6e/0x110 [i915]
+[Sun Feb  8 02:23:12 2026]  intel_encoders_enable+0x85/0xc0 [i915]
+[Sun Feb  8 02:23:12 2026]  hsw_crtc_enable+0x1db/0x3d0 [i915]
+[Sun Feb  8 02:23:12 2026]  intel_enable_crtc+0x72/0xc0 [i915]
+[Sun Feb  8 02:23:12 2026]  skl_commit_modeset_enables+0x30a/0x680 [i915]
+[Sun Feb  8 02:23:12 2026]  intel_atomic_commit_tail+0x4bd/0xa00 

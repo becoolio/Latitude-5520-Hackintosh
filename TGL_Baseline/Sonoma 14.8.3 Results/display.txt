@@ -1,0 +1,21 @@
+Graphics/Displays:
+
+    Display:
+
+      Type: GPU
+      Bus: Built-In
+      VRAM (Total): 128 MB
+      VRAM (Dynamic, Max): 
+      Vendor: Intel
+      Device ID: 0x9a49
+      Revision ID: 0x0001
+      Kernel Extension Info: No Kext Loaded
+      Displays:
+        Display:
+          Resolution: 1920 x 1080 (1080p FHD - Full High Definition)
+          UI Looks like: 1920 x 1080
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+

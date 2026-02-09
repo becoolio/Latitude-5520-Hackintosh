@@ -1,0 +1,238 @@
+GuC lrc descriptor 4095:
+	HW Context Desc: 0xfeded11d
+		LRC Head: Internal 2040, Memory 50333896
+		LRC Tail: Internal 2248, Memory 2248
+		Context Pin Count: 2
+		GuC ID Ref Count: 2
+		Schedule State: 0x50
+		Priority: 3
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 1
+
+GuC lrc descriptor 4096:
+	HW Context Desc: 0xfede711d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4097:
+	HW Context Desc: 0xfede111d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4098:
+	HW Context Desc: 0xfeddb11d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4099:
+	HW Context Desc: 0xfedd511d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4100:
+	HW Context Desc: 0xfedc011d
+		LRC Head: Internal 11248, Memory 71315072
+		LRC Tail: Internal 11904, Memory 11904
+		Context Pin Count: 3
+		GuC ID Ref Count: 3
+		Schedule State: 0x50
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 3
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4101:
+	HW Context Desc: 0xfedab11d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4102:
+	HW Context Desc: 0xfed0d11d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4103:
+	HW Context Desc: 0xfecf811d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4104:
+	HW Context Desc: 0xfece311d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4105:
+	HW Context Desc: 0xfecce11d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4106:
+	HW Context Desc: 0xfecb911d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4107:
+	HW Context Desc: 0xfeca411d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4108:
+	HW Context Desc: 0xfec8f11d
+		LRC Head: Internal 1136, Memory 6293048
+		LRC Tail: Internal 1592, Memory 1592
+		Context Pin Count: 2
+		GuC ID Ref Count: 2
+		Schedule State: 0x50
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 2
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4109:
+	HW Context Desc: 0xfec7a11d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4110:
+	HW Context Desc: 0xfec6511d
+		LRC Head: Internal 2800, Memory 2856
+		LRC Tail: Internal 2856, Memory 2856
+		Context Pin Count: 2
+		GuC ID Ref Count: 0
+		Schedule State: 0x50
+		Priority: 0
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4111:
+	HW Context Desc: 0xfec5011d
+		LRC Head: Internal 136, Memory not pinned
+		LRC Tail: Internal 192, Memory not pinned
+		Context Pin Count: 0
+		GuC ID Ref Count: 0
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+

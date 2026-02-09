@@ -1,0 +1,64 @@
+filename:       /lib/modules/6.8.0-94-generic/kernel/drivers/gpu/drm/i915/i915.ko
+firmware:       i915/mtl_gsc_1.bin
+firmware:       i915/skl_huc_2.0.0.bin
+firmware:       i915/bxt_huc_2.0.0.bin
+firmware:       i915/kbl_huc_4.0.0.bin
+firmware:       i915/glk_huc_4.0.0.bin
+firmware:       i915/kbl_huc_4.0.0.bin
+firmware:       i915/kbl_huc_4.0.0.bin
+firmware:       i915/cml_huc_4.0.0.bin
+firmware:       i915/icl_huc_9.0.0.bin
+firmware:       i915/ehl_huc_9.0.0.bin
+firmware:       i915/ehl_huc_9.0.0.bin
+firmware:       i915/tgl_huc_7.9.3.bin
+firmware:       i915/tgl_huc_7.9.3.bin
+firmware:       i915/dg1_huc.bin
+firmware:       i915/tgl_huc_7.9.3.bin
+firmware:       i915/tgl_huc.bin
+firmware:       i915/tgl_huc_7.9.3.bin
+firmware:       i915/tgl_huc.bin
+firmware:       i915/dg2_huc_gsc.bin
+firmware:       i915/mtl_huc_gsc.bin
+firmware:       i915/skl_guc_70.1.1.bin
+firmware:       i915/bxt_guc_70.1.1.bin
+firmware:       i915/kbl_guc_70.1.1.bin
+firmware:       i915/glk_guc_70.1.1.bin
+firmware:       i915/kbl_guc_70.1.1.bin
+firmware:       i915/kbl_guc_70.1.1.bin
+firmware:       i915/cml_guc_70.1.1.bin
+firmware:       i915/icl_guc_70.1.1.bin
+firmware:       i915/ehl_guc_70.1.1.bin
+firmware:       i915/ehl_guc_70.1.1.bin
+firmware:       i915/tgl_guc_70.1.1.bin
+firmware:       i915/tgl_guc_70.1.1.bin
+firmware:       i915/dg1_guc_70.bin
+firmware:       i915/tgl_guc_69.0.3.bin
+firmware:       i915/tgl_guc_70.1.1.bin
+firmware:       i915/tgl_guc_70.bin
+firmware:       i915/adlp_guc_69.0.3.bin
+firmware:       i915/adlp_guc_70.1.1.bin
+firmware:       i915/adlp_guc_70.bin
+firmware:       i915/dg2_guc_70.bin
+firmware:       i915/mtl_guc_70.bin
+firmware:       i915/bxt_dmc_ver1_07.bin
+firmware:       i915/skl_dmc_ver1_27.bin
+firmware:       i915/kbl_dmc_ver1_04.bin
+firmware:       i915/glk_dmc_ver1_04.bin
+firmware:       i915/icl_dmc_ver1_09.bin
+firmware:       i915/tgl_dmc_ver2_12.bin
+firmware:       i915/rkl_dmc_ver2_03.bin
+firmware:       i915/dg1_dmc_ver2_02.bin
+firmware:       i915/adls_dmc_ver2_01.bin
+firmware:       i915/adlp_dmc_ver2_16.bin
+firmware:       i915/adlp_dmc.bin
+firmware:       i915/dg2_dmc_ver2_08.bin
+firmware:       i915/mtl_dmc.bin
+srcversion:     A42667E5C08C344F4FB75E4
+vermagic:       6.8.0-94-generic SMP preempt mod_unload modversions 
+parm:           vbt_firmware:Load VBT from specified file under /lib/firmware (charp)
+parm:           invert_brightness:Invert backlight brightness (-1 force normal, 0 machine defaults, 1 force inversion), please report PCI device ID, subsystem vendor and subsystem device ID to dri-devel@lists.freedesktop.org, if your machine needs it. It will then be included in an upcoming module version. (int)
+parm:           guc_log_level:GuC firmware logging level. Requires GuC to be loaded. (-1=auto [default], 0=disable, 1..4=enable with verbosity min..max) (int)
+parm:           guc_firmware_path:GuC firmware path to use instead of the default one (charp)
+parm:           huc_firmware_path:HuC firmware path to use instead of the default one (charp)
+parm:           dmc_firmware_path:DMC firmware path to use instead of the default one (charp)
+parm:           gsc_firmware_path:GSC firmware path to use instead of the default one (charp)

@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-6.8.0-94-generic root=UUID=bae84461-85e5-4f79-a4dd-5f1be50c0b31 ro quiet splash i915.enable_guc=3 vt.handoff=7

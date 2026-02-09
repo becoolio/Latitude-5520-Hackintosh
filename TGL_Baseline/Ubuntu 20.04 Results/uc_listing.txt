@@ -1,0 +1,14 @@
+total 0
+drwxr-xr-x 2 root root 0 Feb  7 23:58 .
+drwxr-xr-x 3 root root 0 Feb  7 23:58 ..
+-r--r--r-- 1 root root 0 Feb  7 23:58 guc_info
+-r--r--r-- 1 root root 0 Feb  7 23:58 guc_load_err_log_dump
+-r--r--r-- 1 root root 0 Feb  7 23:58 guc_log_dump
+-rw-r--r-- 1 root root 0 Feb  7 23:58 guc_log_level
+-rw-r--r-- 1 root root 0 Feb  7 23:58 guc_log_relay
+-r--r--r-- 1 root root 0 Feb  7 23:58 guc_registered_contexts
+-rw-r--r-- 1 root root 0 Feb  7 23:58 guc_sched_disable_delay_ms
+-rw-r--r-- 1 root root 0 Feb  7 23:58 guc_sched_disable_gucid_threshold
+-r--r--r-- 1 root root 0 Feb  7 23:58 guc_slpc_info
+-r--r--r-- 1 root root 0 Feb  7 23:58 huc_info
+-r--r--r-- 1 root root 0 Feb  7 23:58 usage
