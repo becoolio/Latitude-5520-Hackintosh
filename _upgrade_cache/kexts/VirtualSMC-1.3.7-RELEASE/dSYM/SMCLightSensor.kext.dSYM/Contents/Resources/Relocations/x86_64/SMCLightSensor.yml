@@ -1,0 +1,49 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/runner/work/VirtualSMC/VirtualSMC/build/Release/SMCLightSensor.kext/Contents/MacOS/SMCLightSensor'
+relocations:
+  - { offsetInCU: 0x35, offset: 0x35, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0xFC0, symBinAddr: 0x2A18, symSize: 0x0 }
+  - { offsetInCU: 0x206, offset: 0x206, size: 0x8, addend: 0x0, symName: __realmain, symObjAddr: 0x1088, symBinAddr: 0x2AE0, symSize: 0x0 }
+  - { offsetInCU: 0x21C, offset: 0x21C, size: 0x8, addend: 0x0, symName: __antimain, symObjAddr: 0x1090, symBinAddr: 0x2AE8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x24C, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorD1Ev, symObjAddr: 0x0, symBinAddr: 0xD70, symSize: 0x10 }
+  - { offsetInCU: 0x3E, offset: 0x263, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor10gMetaClassE, symObjAddr: 0x2A088, symBinAddr: 0x2AF0, symSize: 0x0 }
+  - { offsetInCU: 0x12BED, offset: 0x12E12, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor9metaClassE, symObjAddr: 0x10A8, symBinAddr: 0x2038, symSize: 0x0 }
+  - { offsetInCU: 0x12C04, offset: 0x12E29, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor10superClassE, symObjAddr: 0x10B0, symBinAddr: 0x2040, symSize: 0x0 }
+  - { offsetInCU: 0x12C30, offset: 0x12E55, size: 0x8, addend: 0x0, symName: _SMCLightSensor_debugPrintDelay, symObjAddr: 0x2A0B0, symBinAddr: 0x2B18, symSize: 0x0 }
+  - { offsetInCU: 0x12C76, offset: 0x12E9B, size: 0x8, addend: 0x0, symName: __ZL11kextVersion, symObjAddr: 0x1D30, symBinAddr: 0x1FE0, symSize: 0x0 }
+  - { offsetInCU: 0x12CC7, offset: 0x12EEC, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorD1Ev, symObjAddr: 0x0, symBinAddr: 0xD70, symSize: 0x10 }
+  - { offsetInCU: 0x12D3D, offset: 0x12F62, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorD0Ev, symObjAddr: 0x10, symBinAddr: 0xD80, symSize: 0x30 }
+  - { offsetInCU: 0x12DC5, offset: 0x12FEA, size: 0x8, addend: 0x0, symName: __ZNK14SMCLightSensor12getMetaClassEv, symObjAddr: 0x40, symBinAddr: 0xDB0, symSize: 0x10 }
+  - { offsetInCU: 0x12DF5, offset: 0x1301A, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor4initEP12OSDictionary, symObjAddr: 0x50, symBinAddr: 0xDC0, symSize: 0x50 }
+  - { offsetInCU: 0x12F55, offset: 0x1317A, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor5probeEP9IOServicePi, symObjAddr: 0xA0, symBinAddr: 0xE10, symSize: 0x3D0 }
+  - { offsetInCU: 0x1326A, offset: 0x1348F, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor5startEP9IOService, symObjAddr: 0x470, symBinAddr: 0x11E0, symSize: 0x80 }
+  - { offsetInCU: 0x132B1, offset: 0x134D6, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor4stopEP9IOService, symObjAddr: 0x4F0, symBinAddr: 0x1260, symSize: 0x20 }
+  - { offsetInCU: 0x132B9, offset: 0x134DE, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor23vsmcNotificationHandlerEPvS0_P9IOServiceP10IONotifier, symObjAddr: 0x510, symBinAddr: 0x1280, symSize: 0x130 }
+  - { offsetInCU: 0x132F0, offset: 0x13515, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor23vsmcNotificationHandlerEPvS0_P9IOServiceP10IONotifier, symObjAddr: 0x510, symBinAddr: 0x1280, symSize: 0x130 }
+  - { offsetInCU: 0x13434, offset: 0x13659, size: 0x8, addend: 0x0, symName: '__ZZN14SMCLightSensor23vsmcNotificationHandlerEPvS0_P9IOServiceP10IONotifierEN3$_08__invokeEP8OSObjectP18IOTimerEventSource', symObjAddr: 0x640, symBinAddr: 0x13B0, symSize: 0x90 }
+  - { offsetInCU: 0x134FF, offset: 0x13724, size: 0x8, addend: 0x0, symName: __ZN15VirtualSMCValueC2Ev, symObjAddr: 0x6D0, symBinAddr: 0x1440, symSize: 0xB0 }
+  - { offsetInCU: 0x13562, offset: 0x13787, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor9MetaClassD1Ev, symObjAddr: 0x780, symBinAddr: 0x14F0, symSize: 0x10 }
+  - { offsetInCU: 0x135D8, offset: 0x137FD, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor9MetaClassD0Ev, symObjAddr: 0x790, symBinAddr: 0x1500, symSize: 0x10 }
+  - { offsetInCU: 0x13771, offset: 0x13996, size: 0x8, addend: 0x0, symName: __ZNK14SMCLightSensor9MetaClass5allocEv, symObjAddr: 0x7A0, symBinAddr: 0x1510, symSize: 0xF0 }
+  - { offsetInCU: 0x138C0, offset: 0x13AE5, size: 0x8, addend: 0x0, symName: __ZN15VirtualSMCValue10readAccessEv, symObjAddr: 0x890, symBinAddr: 0x1600, symSize: 0x10 }
+  - { offsetInCU: 0x138EF, offset: 0x13B14, size: 0x8, addend: 0x0, symName: __ZN15VirtualSMCValue11writeAccessEv, symObjAddr: 0x8A0, symBinAddr: 0x1610, symSize: 0x10 }
+  - { offsetInCU: 0x1391E, offset: 0x13B43, size: 0x8, addend: 0x0, symName: __ZN12ALSForceBitsD1Ev, symObjAddr: 0x8B0, symBinAddr: 0x1620, symSize: 0x10 }
+  - { offsetInCU: 0x13952, offset: 0x13B77, size: 0x8, addend: 0x0, symName: __ZN12ALSForceBitsD0Ev, symObjAddr: 0x8C0, symBinAddr: 0x1630, symSize: 0x10 }
+  - { offsetInCU: 0x139D8, offset: 0x13BFD, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_SMCLightSensor.cpp, symObjAddr: 0x8D0, symBinAddr: 0x1640, symSize: 0x40 }
+  - { offsetInCU: 0x13A66, offset: 0x13C8B, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x910, symBinAddr: 0x1680, symSize: 0x20 }
+  - { offsetInCU: 0x13AD7, offset: 0x13CFC, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor9MetaClassC1Ev, symObjAddr: 0x930, symBinAddr: 0x16A0, symSize: 0x40 }
+  - { offsetInCU: 0x13B30, offset: 0x13D55, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorC2EPK11OSMetaClass, symObjAddr: 0x970, symBinAddr: 0x16E0, symSize: 0xD0 }
+  - { offsetInCU: 0x13C6D, offset: 0x13E92, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorC1EPK11OSMetaClass, symObjAddr: 0xA40, symBinAddr: 0x17B0, symSize: 0xD0 }
+  - { offsetInCU: 0x13DC0, offset: 0x13FE5, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorD2Ev, symObjAddr: 0xB10, symBinAddr: 0x1880, symSize: 0x10 }
+  - { offsetInCU: 0x13DEB, offset: 0x14010, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor9MetaClassC2Ev, symObjAddr: 0xB20, symBinAddr: 0x1890, symSize: 0x40 }
+  - { offsetInCU: 0x13E19, offset: 0x1403E, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorC1Ev, symObjAddr: 0xB60, symBinAddr: 0x18D0, symSize: 0xE0 }
+  - { offsetInCU: 0x13F41, offset: 0x14166, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensorC2Ev, symObjAddr: 0xC40, symBinAddr: 0x19B0, symSize: 0xE0 }
+  - { offsetInCU: 0x1403E, offset: 0x14263, size: 0x8, addend: 0x0, symName: __ZN14SMCLightSensor13refreshSensorEb, symObjAddr: 0xD20, symBinAddr: 0x1A90, symSize: 0xA0 }
+  - { offsetInCU: 0x140DD, offset: 0x14302, size: 0x8, addend: 0x0, symName: _SMCLightSensor_kern_start, symObjAddr: 0xDC0, symBinAddr: 0x1B30, symSize: 0x160 }
+  - { offsetInCU: 0x141C5, offset: 0x143EA, size: 0x8, addend: 0x0, symName: _SMCLightSensor_kern_stop, symObjAddr: 0xF20, symBinAddr: 0x1C90, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x14604, size: 0x8, addend: 0x0, symName: __ZN20SMCAmbientLightValue10readAccessEv, symObjAddr: 0xF30, symBinAddr: 0x1CA0, symSize: 0x60 }
+  - { offsetInCU: 0x274, offset: 0x14851, size: 0x8, addend: 0x0, symName: __ZN20SMCAmbientLightValue10readAccessEv, symObjAddr: 0xF30, symBinAddr: 0x1CA0, symSize: 0x60 }
+  - { offsetInCU: 0x302, offset: 0x148DF, size: 0x8, addend: 0x0, symName: __ZN15VirtualSMCValue11writeAccessEv.7, symObjAddr: 0xF90, symBinAddr: 0x1D00, symSize: 0x10 }
+  - { offsetInCU: 0x331, offset: 0x1490E, size: 0x8, addend: 0x0, symName: __ZN20SMCAmbientLightValueD1Ev, symObjAddr: 0xFA0, symBinAddr: 0x1D10, symSize: 0x10 }
+  - { offsetInCU: 0x365, offset: 0x14942, size: 0x8, addend: 0x0, symName: __ZN20SMCAmbientLightValueD0Ev, symObjAddr: 0xFB0, symBinAddr: 0x1D20, symSize: 0xA }
+...

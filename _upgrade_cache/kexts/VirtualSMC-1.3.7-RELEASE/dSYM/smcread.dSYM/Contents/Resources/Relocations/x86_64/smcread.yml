@@ -1,0 +1,15 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/runner/work/VirtualSMC/VirtualSMC/build/Release/smcread'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001585, symSize: 0x1613 }
+  - { offsetInCU: 0x5F, offset: 0x5F, size: 0x8, addend: 0x0, symName: _key_type_valid, symObjAddr: 0x26A0, symBinAddr: 0x1000034C0, symSize: 0x0 }
+  - { offsetInCU: 0x7C, offset: 0x7C, size: 0x8, addend: 0x0, symName: _getAttr, symObjAddr: 0x1B45, symBinAddr: 0x1000030CA, symSize: 0x116 }
+  - { offsetInCU: 0xA8, offset: 0xA8, size: 0x8, addend: 0x0, symName: _getAttr.attrbuf, symObjAddr: 0x9A10, symBinAddr: 0x1000041C0, symSize: 0x0 }
+  - { offsetInCU: 0xAF7, offset: 0xAF7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001585, symSize: 0x1613 }
+  - { offsetInCU: 0xAFF, offset: 0xAFF, size: 0x8, addend: 0x0, symName: _smc_read_key, symObjAddr: 0x1613, symBinAddr: 0x100002B98, symSize: 0x155 }
+  - { offsetInCU: 0x1064, offset: 0x1064, size: 0x8, addend: 0x0, symName: _smc_read_key, symObjAddr: 0x1613, symBinAddr: 0x100002B98, symSize: 0x155 }
+  - { offsetInCU: 0x106C, offset: 0x106C, size: 0x8, addend: 0x0, symName: _convertUpdate, symObjAddr: 0x1768, symBinAddr: 0x100002CED, symSize: 0x3DD }
+  - { offsetInCU: 0x1170, offset: 0x1170, size: 0x8, addend: 0x0, symName: _convertUpdate, symObjAddr: 0x1768, symBinAddr: 0x100002CED, symSize: 0x3DD }
+  - { offsetInCU: 0x1178, offset: 0x1178, size: 0x8, addend: 0x0, symName: _getAttr, symObjAddr: 0x1B45, symBinAddr: 0x1000030CA, symSize: 0x116 }
+...

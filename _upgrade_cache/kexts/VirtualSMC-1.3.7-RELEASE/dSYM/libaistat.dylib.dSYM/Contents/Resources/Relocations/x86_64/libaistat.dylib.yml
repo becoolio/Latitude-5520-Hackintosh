@@ -1,0 +1,7 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/runner/work/VirtualSMC/VirtualSMC/build/Release/libaistat.dylib'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: __Z7startupv, symObjAddr: 0x0, symBinAddr: 0x2D70, symSize: 0xD13 }
+  - { offsetInCU: 0x570, offset: 0x570, size: 0x8, addend: 0x0, symName: __Z7startupv, symObjAddr: 0x0, symBinAddr: 0x2D70, symSize: 0xD13 }
+...

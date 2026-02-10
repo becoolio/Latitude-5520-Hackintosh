@@ -1,0 +1,63 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/runner/work/VirtualSMC/VirtualSMC/build/Release/SMCProcessor.kext/Contents/MacOS/SMCProcessor'
+relocations:
+  - { offsetInCU: 0x35, offset: 0x35, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x2F10, symBinAddr: 0x4A98, symSize: 0x0 }
+  - { offsetInCU: 0x206, offset: 0x206, size: 0x8, addend: 0x0, symName: __realmain, symObjAddr: 0x2FD8, symBinAddr: 0x4B60, symSize: 0x0 }
+  - { offsetInCU: 0x21C, offset: 0x21C, size: 0x8, addend: 0x0, symName: __antimain, symObjAddr: 0x2FE0, symBinAddr: 0x4B68, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x24C, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorD1Ev, symObjAddr: 0x0, symBinAddr: 0xD50, symSize: 0x10 }
+  - { offsetInCU: 0x3E, offset: 0x263, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor10gMetaClassE, symObjAddr: 0x303C0, symBinAddr: 0x4B70, symSize: 0x0 }
+  - { offsetInCU: 0xFB5F, offset: 0xFD84, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor9metaClassE, symObjAddr: 0x2FF8, symBinAddr: 0x4038, symSize: 0x0 }
+  - { offsetInCU: 0xFB76, offset: 0xFD9B, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor10superClassE, symObjAddr: 0x3000, symBinAddr: 0x4040, symSize: 0x0 }
+  - { offsetInCU: 0xFB98, offset: 0xFDBD, size: 0x8, addend: 0x0, symName: _SMCProcessor_debugPrintDelay, symObjAddr: 0x303E8, symBinAddr: 0x4B98, symSize: 0x0 }
+  - { offsetInCU: 0xFBAD, offset: 0xFDD2, size: 0x8, addend: 0x0, symName: __ZL11kextVersion, symObjAddr: 0x3DF0, symBinAddr: 0x3C60, symSize: 0x0 }
+  - { offsetInCU: 0x10752, offset: 0x10977, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorD1Ev, symObjAddr: 0x0, symBinAddr: 0xD50, symSize: 0x10 }
+  - { offsetInCU: 0x107C8, offset: 0x109ED, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorD0Ev, symObjAddr: 0x10, symBinAddr: 0xD60, symSize: 0x30 }
+  - { offsetInCU: 0x10850, offset: 0x10A75, size: 0x8, addend: 0x0, symName: __ZNK12SMCProcessor12getMetaClassEv, symObjAddr: 0x40, symBinAddr: 0xD90, symSize: 0x10 }
+  - { offsetInCU: 0x10896, offset: 0x10ABB, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor5probeEP9IOServicePi, symObjAddr: 0x50, symBinAddr: 0xDA0, symSize: 0x30 }
+  - { offsetInCU: 0x1099F, offset: 0x10BC4, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor5startEP9IOService, symObjAddr: 0x80, symBinAddr: 0xDD0, symSize: 0x740 }
+  - { offsetInCU: 0x10EED, offset: 0x11112, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor4stopEP9IOService, symObjAddr: 0x7C0, symBinAddr: 0x1510, symSize: 0x30 }
+  - { offsetInCU: 0x10F9B, offset: 0x111C0, size: 0x8, addend: 0x0, symName: '__ZZN12SMCProcessor5startEP9IOServiceEN3$_28__invokeEP8OSObjectP18IOTimerEventSource', symObjAddr: 0x7F0, symBinAddr: 0x1540, symSize: 0x20 }
+  - { offsetInCU: 0x10FA3, offset: 0x111C8, size: 0x8, addend: 0x0, symName: '__ZZN12SMCProcessor5startEP9IOServiceEN3$_38__invokeEPv', symObjAddr: 0x810, symBinAddr: 0x1560, symSize: 0x70 }
+  - { offsetInCU: 0x11106, offset: 0x1132B, size: 0x8, addend: 0x0, symName: '__ZZN12SMCProcessor5startEP9IOServiceEN3$_38__invokeEPv', symObjAddr: 0x810, symBinAddr: 0x1560, symSize: 0x70 }
+  - { offsetInCU: 0x11388, offset: 0x115AD, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor17staticThreadEntryEPvS0_, symObjAddr: 0x880, symBinAddr: 0x15D0, symSize: 0x340 }
+  - { offsetInCU: 0x11D66, offset: 0x11F8B, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor9setupKeysEm, symObjAddr: 0xBC0, symBinAddr: 0x1910, symSize: 0xF90 }
+  - { offsetInCU: 0x13AE5, offset: 0x13D0A, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor23vsmcNotificationHandlerEPvS0_P9IOServiceP10IONotifier, symObjAddr: 0x1B50, symBinAddr: 0x28A0, symSize: 0xA0 }
+  - { offsetInCU: 0x13C73, offset: 0x13E98, size: 0x8, addend: 0x0, symName: '__ZZN12SMCProcessor9setupKeysEmEN3$_08__invokeEPv', symObjAddr: 0x1BF0, symBinAddr: 0x2940, symSize: 0x90 }
+  - { offsetInCU: 0x13DF8, offset: 0x1401D, size: 0x8, addend: 0x0, symName: __ZN15VirtualSMCValueC2Ev, symObjAddr: 0x1C80, symBinAddr: 0x29D0, symSize: 0xB0 }
+  - { offsetInCU: 0x13E5B, offset: 0x14080, size: 0x8, addend: 0x0, symName: __ZN18VirtualSMCKeyValue7compareEPKvS1_, symObjAddr: 0x1D30, symBinAddr: 0x2A80, symSize: 0x30 }
+  - { offsetInCU: 0x13ED6, offset: 0x140FB, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor22bindCurrentThreadToCpuEj, symObjAddr: 0x1D60, symBinAddr: 0x2AB0, symSize: 0x100 }
+  - { offsetInCU: 0x13FA5, offset: 0x141CA, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor13timerCallbackEv, symObjAddr: 0x1E60, symBinAddr: 0x2BB0, symSize: 0x2C0 }
+  - { offsetInCU: 0x140F4, offset: 0x14319, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor9MetaClassD1Ev, symObjAddr: 0x2120, symBinAddr: 0x2E70, symSize: 0x10 }
+  - { offsetInCU: 0x1416A, offset: 0x1438F, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor9MetaClassD0Ev, symObjAddr: 0x2130, symBinAddr: 0x2E80, symSize: 0x10 }
+  - { offsetInCU: 0x142BE, offset: 0x144E3, size: 0x8, addend: 0x0, symName: __ZNK12SMCProcessor9MetaClass5allocEv, symObjAddr: 0x2140, symBinAddr: 0x2E90, symSize: 0xE0 }
+  - { offsetInCU: 0x14409, offset: 0x1462E, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_SMCProcessor.cpp, symObjAddr: 0x2220, symBinAddr: 0x2F70, symSize: 0x40 }
+  - { offsetInCU: 0x14497, offset: 0x146BC, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x2260, symBinAddr: 0x2FB0, symSize: 0x20 }
+  - { offsetInCU: 0x14508, offset: 0x1472D, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor9MetaClassC1Ev, symObjAddr: 0x2280, symBinAddr: 0x2FD0, symSize: 0x40 }
+  - { offsetInCU: 0x14561, offset: 0x14786, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorC2EPK11OSMetaClass, symObjAddr: 0x22C0, symBinAddr: 0x3010, symSize: 0xB0 }
+  - { offsetInCU: 0x1464C, offset: 0x14871, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorC1EPK11OSMetaClass, symObjAddr: 0x2370, symBinAddr: 0x30C0, symSize: 0xB0 }
+  - { offsetInCU: 0x1474D, offset: 0x14972, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorD2Ev, symObjAddr: 0x2420, symBinAddr: 0x3170, symSize: 0x10 }
+  - { offsetInCU: 0x14778, offset: 0x1499D, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor9MetaClassC2Ev, symObjAddr: 0x2430, symBinAddr: 0x3180, symSize: 0x40 }
+  - { offsetInCU: 0x147A6, offset: 0x149CB, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorC1Ev, symObjAddr: 0x2470, symBinAddr: 0x31C0, symSize: 0xC0 }
+  - { offsetInCU: 0x1487B, offset: 0x14AA0, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessorC2Ev, symObjAddr: 0x2530, symBinAddr: 0x3280, symSize: 0xC0 }
+  - { offsetInCU: 0x14925, offset: 0x14B4A, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor9readTjmaxEv, symObjAddr: 0x25F0, symBinAddr: 0x3340, symSize: 0x70 }
+  - { offsetInCU: 0x149D2, offset: 0x14BF7, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor8readRaplEv, symObjAddr: 0x2660, symBinAddr: 0x33B0, symSize: 0x90 }
+  - { offsetInCU: 0x14B16, offset: 0x14D3B, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor14updateCountersEj, symObjAddr: 0x26F0, symBinAddr: 0x3440, symSize: 0x260 }
+  - { offsetInCU: 0x14DE2, offset: 0x15007, size: 0x8, addend: 0x0, symName: __ZN12SMCProcessor15quickRescheduleEv, symObjAddr: 0x2950, symBinAddr: 0x36A0, symSize: 0x40 }
+  - { offsetInCU: 0x14E5B, offset: 0x15080, size: 0x8, addend: 0x0, symName: _SMCProcessor_kern_start, symObjAddr: 0x2990, symBinAddr: 0x36E0, symSize: 0x160 }
+  - { offsetInCU: 0x14F4C, offset: 0x15171, size: 0x8, addend: 0x0, symName: _SMCProcessor_kern_stop, symObjAddr: 0x2AF0, symBinAddr: 0x3840, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x15FFD, size: 0x8, addend: 0x0, symName: __ZN11CpEnergyKey10readAccessEv, symObjAddr: 0x2B00, symBinAddr: 0x3850, symSize: 0x160 }
+  - { offsetInCU: 0x109, offset: 0x160DF, size: 0x8, addend: 0x0, symName: __ZN11CpEnergyKey10readAccessEv, symObjAddr: 0x2B00, symBinAddr: 0x3850, symSize: 0x160 }
+  - { offsetInCU: 0x198, offset: 0x1616E, size: 0x8, addend: 0x0, symName: __ZN15VirtualSMCValue11writeAccessEv, symObjAddr: 0x2C60, symBinAddr: 0x39B0, symSize: 0x10 }
+  - { offsetInCU: 0x1C7, offset: 0x1619D, size: 0x8, addend: 0x0, symName: __ZN11CpEnergyKeyD1Ev, symObjAddr: 0x2C70, symBinAddr: 0x39C0, symSize: 0x10 }
+  - { offsetInCU: 0x1FB, offset: 0x161D1, size: 0x8, addend: 0x0, symName: __ZN11CpEnergyKeyD0Ev, symObjAddr: 0x2C80, symBinAddr: 0x39D0, symSize: 0x10 }
+  - { offsetInCU: 0x2A9, offset: 0x1627F, size: 0x8, addend: 0x0, symName: __ZN11TempPackage10readAccessEv, symObjAddr: 0x2C90, symBinAddr: 0x39E0, symSize: 0xA0 }
+  - { offsetInCU: 0x315, offset: 0x162EB, size: 0x8, addend: 0x0, symName: __ZN11TempPackageD1Ev, symObjAddr: 0x2D30, symBinAddr: 0x3A80, symSize: 0x10 }
+  - { offsetInCU: 0x349, offset: 0x1631F, size: 0x8, addend: 0x0, symName: __ZN11TempPackageD0Ev, symObjAddr: 0x2D40, symBinAddr: 0x3A90, symSize: 0x10 }
+  - { offsetInCU: 0x3F7, offset: 0x163CD, size: 0x8, addend: 0x0, symName: __ZN8TempCore10readAccessEv, symObjAddr: 0x2D50, symBinAddr: 0x3AA0, symSize: 0xA0 }
+  - { offsetInCU: 0x463, offset: 0x16439, size: 0x8, addend: 0x0, symName: __ZN8TempCoreD1Ev, symObjAddr: 0x2DF0, symBinAddr: 0x3B40, symSize: 0x10 }
+  - { offsetInCU: 0x497, offset: 0x1646D, size: 0x8, addend: 0x0, symName: __ZN8TempCoreD0Ev, symObjAddr: 0x2E00, symBinAddr: 0x3B50, symSize: 0x10 }
+  - { offsetInCU: 0x545, offset: 0x1651B, size: 0x8, addend: 0x0, symName: __ZN14VoltagePackage10readAccessEv, symObjAddr: 0x2E10, symBinAddr: 0x3B60, symSize: 0xA0 }
+  - { offsetInCU: 0x5B1, offset: 0x16587, size: 0x8, addend: 0x0, symName: __ZN14VoltagePackageD1Ev, symObjAddr: 0x2EB0, symBinAddr: 0x3C00, symSize: 0x10 }
+  - { offsetInCU: 0x5E5, offset: 0x165BB, size: 0x8, addend: 0x0, symName: __ZN14VoltagePackageD0Ev, symObjAddr: 0x2EC0, symBinAddr: 0x3C10, symSize: 0xA }
+...
