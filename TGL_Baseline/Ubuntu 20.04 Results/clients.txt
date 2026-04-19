@@ -1,6 +1,0 @@
-             command  tgid dev master a   uid      magic
-      systemd-logind   691   1   y    y     0          0
-             firefox  2018 128   n    n  1000          0
-             firefox  2018 128   n    n  1000          0
-            Xwayland  3162 128   n    n  1000          0
-       gsd-xsettings  3182 128   n    n  1000          0

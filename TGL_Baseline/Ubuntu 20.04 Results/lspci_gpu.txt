@@ -1,4 +1,0 @@
-00:02.0 VGA compatible controller [0300]: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01)
-	Subsystem: Dell TigerLake-LP GT2 [Iris Xe Graphics] [1028:0a21]
-	Kernel driver in use: i915
-	Kernel modules: i915, xe

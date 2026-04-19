@@ -133,6 +133,16 @@ public:
 	 *  @return loaded kinfo id
 	 */
 	EXPORT size_t loadKinfo(KextInfo *info);
+
+	/**
+	 *  Creates a placeholder kinfo for runtime resolution (KC mode fallback).
+	 *  Used when loadKinfo fails but the kext may still be loadable at runtime.
+	 *
+	 *  @param info kext to create placeholder for, updated on success
+	 *
+	 *  @return loaded kinfo id or INVALID on failure
+	 */
+	EXPORT size_t loadKinfoPlaceholder(KextInfo *info);
 #endif /* LILU_KEXTPATCH_SUPPORT */
 
 	/**

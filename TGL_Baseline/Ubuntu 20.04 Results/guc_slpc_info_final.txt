@@ -1,6 +1,0 @@
-	SLPC state: running
-	GTPERF task active: yes
-	Max freq: 1300 MHz
-	Min freq: 400 MHz
-	waitboosts: 20403
-	Boosts outstanding: 0

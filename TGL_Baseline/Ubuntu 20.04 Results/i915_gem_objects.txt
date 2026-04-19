@@ -1,3 +1,0 @@
-310 shrinkable [25 free] objects, 523862016 bytes
-system: total:0x00000007be302000 bytes
-stolen-system: total:0x000000000a000000 bytes
